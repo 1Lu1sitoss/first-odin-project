@@ -1,5 +1,9 @@
 .body , .header{
     display: flex;
+    flex-direction: row;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
 }
 
 a , ul{
@@ -14,12 +18,11 @@ a , ul{
 .header{
     display: flex;
     align-items: center;
-    padding-right: 24px;
-    padding-left: 24px;
+    padding-right: 90px;
+    padding-left: 90px;
     background-color: #1f2937;
     color: #f9faf8;
     font-size: 24px;
-    width: 800px;
 }
 
 .header-links{
@@ -30,13 +33,12 @@ a , ul{
 .second-container{
     display: flex;
     flex-direction: column;
-
-    width: 800px;
     height: 500px;
+    width: 400px;
     background-color: #1f2937;
-    padding-right: 24px;
-    padding-left: 24px;
-    border: solid wheat 1px;
+    padding-right: 90px;
+    padding-left: 90px;
+    padding-top: 90px;
     
 }
 
@@ -59,17 +61,27 @@ a , ul{
     margin-bottom: 10px;
 }
 
-.img-place-holder{
+.container{
     display: flex;
-    flex-direction: row;
-    color: white;
-    background-color: gray;
-    height: 150px;
-    width: 300px;
+}
+
+.third-container{
+    display: flex;
+    width: 1900px;
+    background-color: #1f2937;
     justify-content: center;
     align-items: center;
-    align-self: flex-end;
-    justify-self: center;
+    padding-bottom: 130px;
+}
+
+.image-placeholder{
+    display: flex;
+    color: white;
+    background-color: gray;
+    height: 300px;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
     border: solid gold 1px;
 
 }
